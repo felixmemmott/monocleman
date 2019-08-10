@@ -18,6 +18,7 @@ A friendly search bot that will provide search links for google, amazon, youtube
   <li>?ysearch - youtube search.</li>
   <li>?ssearch - soundcloud search.</li>
   <li>?lmgtfy - Let me google that for you link.</li>
+  <li>?commands - Refers you to the github readme for a list of commands.</li>
   </ul>
 
 
