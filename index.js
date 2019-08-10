@@ -84,6 +84,9 @@ client.on('message', message => {
       message.channel.send("https://soundcloud.com/search?q=" + item_formatted);
     }
 
+    if (message.content.startsWith(`${prefix}commands`)){
+      message.channel.send("Oh ho ho ho! Refer to the readme at https://github.com/felixmemmott/monocleman for a list of commands!");
+    }
   } catch(err) {
     message.channel.send("Oh crumbs, something went wrong, go to my owner's discord: https://discord.gg/VHzscm and report this!");
   }
