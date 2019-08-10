@@ -85,7 +85,7 @@ client.on('message', message => {
     }
 
   } catch(err) {
-    message.channel.send("Oh crumbs, an unknown command!");
+    message.channel.send("Oh crumbs, something went wrong, go to my owner's discord: https://discord.gg/VHzscm and report this!");
   }
 
 
