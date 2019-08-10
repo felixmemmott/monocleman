@@ -14,7 +14,7 @@ client.on('message', message => {
   try {
     //amazonsearch
     if (message.content.startsWith(`${prefix}asearch`)){
-      console.log(message.author.id + " : " + message.content);
+      console.log(message.author.tag + " : " + message.content);
       i = Math.floor((Math.random() * responsecount));
       message.channel.send(tallyho[i]);
 
@@ -26,7 +26,7 @@ client.on('message', message => {
 
     //ebaysearch
     if (message.content.startsWith(`${prefix}esearch`)){
-      console.log(message.author.id + " : " + message.content);
+      console.log(message.author.tag + " : " + message.content);
       i = Math.floor((Math.random() * responsecount));
       message.channel.send(tallyho[i]);
 
@@ -38,7 +38,7 @@ client.on('message', message => {
 
     //googlesearch
     if (message.content.startsWith(`${prefix}gsearch`)){
-      console.log(message.author.id + " : " + message.content);
+      console.log(message.author.tag + " : " + message.content);
       i = Math.floor((Math.random() * responsecount));
       message.channel.send(tallyho[i]);
 
@@ -50,7 +50,7 @@ client.on('message', message => {
 
     //letmegooglethatforyou
     if (message.content.startsWith(`${prefix}lmgtfy`)){
-      console.log(message.author.id + " : " + message.content);
+      console.log(message.author.tag + " : " + message.content);
       i = Math.floor((Math.random() * responsecount));
       message.channel.send(tallyho[i]);
 
@@ -62,7 +62,7 @@ client.on('message', message => {
 
     //youtubesearch
     if (message.content.startsWith(`${prefix}ysearch`)){
-      console.log(message.author.id + " : " + message.content);
+      console.log(message.author.tag + " : " + message.content);
       i = Math.floor((Math.random() * responsecount));
       message.channel.send(tallyho[i]);
 
@@ -74,7 +74,7 @@ client.on('message', message => {
 
     //soundcloudsearch
     if (message.content.startsWith(`${prefix}ssearch`)){
-      console.log(message.author.id + " : " + message.content);
+      console.log(message.author.tag + " : " + message.content);
       i = Math.floor((Math.random() * responsecount));
       message.channel.send(tallyho[i]);
 
