@@ -14,7 +14,7 @@ client.on('message', message => {
 
   //amazonsearch
   if (message.content.startsWith(`${prefix}asearch`)){
-    Console.log(message.author + " : " + message.content);
+    console.log(message.author + " : " + message.content);
     i = Math.floor((Math.random() * responsecount));
     message.channel.send(tallyho[i]);
 
@@ -26,7 +26,7 @@ client.on('message', message => {
 
   //ebaysearch
   if (message.content.startsWith(`${prefix}esearch`)){
-    Console.log(message.author + " : " + message.content);
+    console.log(message.author + " : " + message.content);
     i = Math.floor((Math.random() * responsecount));
     message.channel.send(tallyho[i]);
 
@@ -38,7 +38,7 @@ client.on('message', message => {
 
   //googlesearch
   if (message.content.startsWith(`${prefix}gsearch`)){
-    Console.log(message.author + " : " + message.content);
+    console.log(message.author + " : " + message.content);
     i = Math.floor((Math.random() * responsecount));
     message.channel.send(tallyho[i]);
 
@@ -50,7 +50,7 @@ client.on('message', message => {
 
   //letmegooglethatforyou
   if (message.content.startsWith(`${prefix}lmgtfy`)){
-    Console.log(message.author + " : " + message.content);
+    console.log(message.author + " : " + message.content);
     i = Math.floor((Math.random() * responsecount));
     message.channel.send(tallyho[i]);
 
@@ -62,7 +62,7 @@ client.on('message', message => {
 
   //youtubesearch
   if (message.content.startsWith(`${prefix}ysearch`)){
-    Console.log(message.author + " : " + message.content);
+    console.log(message.author + " : " + message.content);
     i = Math.floor((Math.random() * responsecount));
     message.channel.send(tallyho[i]);
 
@@ -74,7 +74,7 @@ client.on('message', message => {
 
   //soundcloudsearch
   if (message.content.startsWith(`${prefix}ssearch`)){
-    Console.log(message.author + " : " + message.content);
+    console.log(message.author + " : " + message.content);
     i = Math.floor((Math.random() * responsecount));
     message.channel.send(tallyho[i]);
 
